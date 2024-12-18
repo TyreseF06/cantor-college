@@ -1,0 +1,39 @@
+body {
+    display: flex; 
+    flex-direction: column; 
+    min-height: 100vh; 
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  }
+h1{
+    text-align: center;
+}
+.container{
+    flex: 1;
+}
+.grouping{
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-radius: 30px;
+    padding: 20px;
+    /*colour for the boxes when im done or have no time left*/
+
+}
+.details{
+    display: flex;
+    border-style: solid;
+    border-radius: 30px;
+    padding: 20px;
+}
+.left-text{
+    margin-right: auto;
+}
+.right-text{
+    margin-left: auto;
+}
+footer{
+    background-color: #333;
+    color: white;
+}
+
